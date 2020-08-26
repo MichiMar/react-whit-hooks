@@ -9,6 +9,7 @@ export default class App extends Component {
       backgroundColor: dynamicBackgroundColor,
       color: "white",
     };
+
     return (
       <div className="app">
         <h1>DevCamp React Starter</h1>
