@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // @ts-ignore
 const logo = require("../../../static/assets/images/binary.png");
@@ -7,11 +8,11 @@ export default () => {
   return (
     <div>
       <img src={logo} />
-      <div>Michelle Alexis Rommy Marquez Soto</div>
+      <div>Michelle Marquez</div>
 
-      <div>Home</div>
-
-      <div>Portfolio</div>
+      <Link to="/">Home</Link>
+      <Link to="/">About</Link>
+      <Link to="/">Blog</Link>
     </div>
   );
 };
