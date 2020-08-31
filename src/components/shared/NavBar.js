@@ -11,8 +11,8 @@ export default () => {
       <div>Michelle Marquez</div>
 
       <Link to="/">Home</Link>
-      <Link to="/">About</Link>
-      <Link to="/">Blog</Link>
+      <Link to="/about">About</Link>
+      <Link to="/blog">Blog</Link>
     </div>
   );
 };
