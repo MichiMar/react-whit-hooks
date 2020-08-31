@@ -1,12 +1,12 @@
 import React from "react";
 import NavBar from "../shared/NavBar";
+import DashboardLaoyout from "../layouts/DashboardLaoyout";
 
 export default () => {
   return (
-    <div>
-      <NavBar />
+    <DashboardLaoyout>
       <h1>Blog</h1>
       <div>More content</div>
-    </div>
+    </DashboardLaoyout>
   );
 };
