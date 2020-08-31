@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const PortfolioItemsList = () => {
   const items = [
     { id: 1, title: "Quip" },
     { id: 2, title: "Eventbrite" },
@@ -12,4 +12,8 @@ export default () => {
   };
 
   return <div>{itemsRenderer()}</div>;
+};
+
+export default () => {
+  return <PortfolioItemsList />;
 };
