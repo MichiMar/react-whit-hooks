@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../shared/NavBar";
 import DashboardLaoyout from "../layouts/DashboardLaoyout";
+import PortfolioItems from "../portfolio/PortfolioItems";
 
 export default () => {
   const dynamicBackgroundColor = "black";
@@ -13,10 +14,7 @@ export default () => {
 
   return (
     <DashboardLaoyout>
-      <h1>DevCamp React Starter</h1>
-      <h2>React + React Router</h2>
-
-      <div style={styles}>Testing Style</div>
+      <PortfolioItems />
     </DashboardLaoyout>
   );
 };
